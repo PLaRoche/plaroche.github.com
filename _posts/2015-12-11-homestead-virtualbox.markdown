@@ -9,6 +9,8 @@ Not able to load your web project, is the browser just timing out?
 
 Chances are your Homestead.yaml file has a different IP range as what __VirtualBox__ has set up.
 
+
+
 #### Example:  
 
 Some config:
