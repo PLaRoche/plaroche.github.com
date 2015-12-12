@@ -2,16 +2,19 @@
 layout: post
 title:  "Homestead and web timeouts: Damn you vboxnet0"
 date:   2015-12-11
+categories: vagrant homestead devops
+tags: vagrant homestead devops
+author: patrick
+description: "How to get homestead and virtualbox to actually work"
+share: true
 ---
 
-Not able to load your web project, is the browser just timing out?  
-
+Not able to load your web project, is the browser just timing out?
 
 Chances are your Homestead.yaml file has a different IP range as what __VirtualBox__ has set up.
 
 
-
-#### Example:  
+#### Example:
 
 Some config:
 
